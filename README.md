@@ -9,10 +9,14 @@ Welcome to the Global Terrorism Analysis miniproject. The aim of this notebook i
 Download data set, Global Terrorism Database, from https://www.kaggle.com/START-UMD/gtd. Then, save it in catalog named 'input'. 
 This is necessary because the dataset is too big for github repo.
 Libs which are necessary to run the code:
-->pandas
-->numpy
-->matplotlib
-->seaborn
+    
+    ```
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    
+    ```
 
 # Project Instructions
 
