@@ -1,24 +1,29 @@
 # Global Terrorism
 
-Mini project - global terrorism analysis carried out as a part of the course 'Eksploracja danych biomedycznych'
+Mini project - global terrorism analysis carried out as a part of the course 'Eksploracja danych biomedycznych'.
  
 # Project Overview
 
-Welcome to the Data Exploration miniproject. You will learn how to clean and prepare data and build a pipeline that can be used for further exploration. The goal is that by completing this lab, you understand the first stage of data processing pipeline.
- 
+Welcome to the Global Terrorism Analysis miniproject. The aim of this notebook is to explore the terrorist events around the world. This dataset contains 181,691 line items of the terrorism activities that happened between 1970 to 2017. With this extensive data,there is an opportunity for a data analyst to come out with interesting findings. Plots are used in this notebook, for making the exploration easy and more informative.
+
+Download data set, Global Terrorism Database, from https://www.kaggle.com/START-UMD/gtd. Then, save it in catalog named 'input'. 
+This is necessary because the dataset is too big for github repo.
+Libs which are necessary to run the code:
+->pandas
+->numpy
+->matplotlib
+->seaborn
+
 # Project Instructions
-
-
-Create readme.md file as well in your github root directory with all necessary instructions (what is in the repo, what libs are necessary to run the code, where to find data set and where to save it - this is necessary because the dataset is too big for github repo).
 
 0. (Optional step) Fork the repository to your github account. It allows you to upload the changes to your own github
 
-1. Clean all the previous copies of this repo (it could be downloaded by other students).
+1. Clean all the previous copies of this repo.
 
     ```
     cd
     ls -all
-    rm -rf bme-*
+    rm -rf Global*
     ```
 
 2. Clone the repository to your local PC
@@ -26,39 +31,17 @@ Create readme.md file as well in your github root directory with all necessary i
     Go to your home directory, and clone the repository. In case you made a copy (fork) provide your own URL
     ```
     cd
-    git clone https://github.com/tstokrk/bme-data-exp.git
-    cd bme-data-exp
+    git clone https://github.com/ewelsmola/Global_Terrorism.git
+    cd Global_Terrorism
     ```
 
-3. (Optional step) Create a new conda environment.
-
-    If you're using mini conda this step help you tune the the necessary Python packages.
-
-    All necessary packages are listed in requirements.yml file, that defines dataexp env.
-
-    Before you create the new dataexp env using conda, check if there is no different
-    env with the same name on your PC. Remove all env that can create a conflict with the new one
-
-    ```
-    conda env list
-    conda env remove --name dataexp
-    ```
-
-    Create the new env using the package list from the provided file
-
-    ```
-    conda env create -f requirements.yml
-    source activate dataexp
-    ```
-
-
-4. Open the Jupyter Notebook and follow the instructions
+3. Open the Jupyter Notebook and follow the instructions
 	
     ```
-    jupyter notebook dataexp.ipynb
+    jupyter notebook global.ipynb
     ```
   
-5. (Optional step) Commit and push all the changes to your own github repo 
+4. (Optional step) Commit and push all the changes to your own github repo 
 
     ```
     git commit -m "My update.."
